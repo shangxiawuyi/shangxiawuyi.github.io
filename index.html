@@ -1,7 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<h1>我的网页</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#projects">项目</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <!-- 头部 -->
+    <header>
+        <h1>你好，我是 [你的名字]</h1>
+        <p>[你的职业]，专注于 [相关领域]</p>
+        <a href="#contact" class="btn">联系我</a>
+    </header>
+
+    <!-- 关于我 -->
+    <section id="about">
+        <h2>关于我</h2>
+        <p>我是一个对 [相关领域] 充满热情的人，拥有 [X] 年的工作经验。在工作中，我不断学习和探索新的技术和方法，致力于为用户提供优质的解决方案。</p>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills">
+        <h2>技能</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>数据库管理</li>
+        </ul>
+    </section>
+
+    <!-- 项目 -->
+    <section id="projects">
+        <h2>项目</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="项目 1">
+            <h3>项目 1</h3>
+            <p>这是一个使用 [技术栈] 开发的项目，主要实现了 [项目功能]。</p>
+            <a href="#" class="btn">查看详情</a>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="项目 2">
+            <h3>项目 2</h3>
+            <p>这是一个使用 [技术栈] 开发的项目，主要实现了 [项目功能]。</p>
+            <a href="#" class="btn">查看详情</a>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact">
+        <h2>联系我</h2>
+        <form>
+            <input type="text" placeholder="姓名">
+            <input type="email" placeholder="邮箱">
+            <textarea placeholder="留言"></textarea>
+            <input type="submit" value="发送">
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 [你的名字]。保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
